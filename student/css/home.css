@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #e7eaf6; */
+}
+.home-first{
+    display: flex;
+    justify-content: center;
+}
+.home-first-text {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: 4rem;
+    align-items: center;
+}
+.home-first-text .left{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    height: 220px;
+    background-color: rgb(236, 236, 236);
+    box-shadow:  0px 0px 10px 10px rgb(221, 221, 221);
+    padding: 20px;
+}
+.home-first-text .left p{
+    font-size: 20px;
+}
+.home-first-text .right {
+    width: 50%;
+    height: 300px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px 0px #606d6f;
+    background-color: rgb(167, 210, 209);
+}
+.home-main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    /* border: 2px solid; */
+}
+
+.home-second {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-second h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.home-second .left {
+    width: 50%;
+
+}
+
+.home-second .right img {
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* section third css */
+.home-third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-third .main {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-third .main .box {
+    display: flex;
+    width: 20%;
+    height: 300px;
+    background-color: #f2f3f7;
+    text-align: center;
+    margin: 20px;
+    /* overflow: visible; */
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-third .main .box h1 {
+    margin-top: 60px;
+}
+
+.home-third .main .box img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* home four css */
+.home-four {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem;
+}
+
+.home-four .text {
+    width: 62rem;
+}
+
+.home-four .btn button {
+    background-color: #003399;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.home-four .btn a{
+    text-decoration: none;
+    color: white;
+}
